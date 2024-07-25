@@ -1,0 +1,11 @@
+name: ItemFilter
+version: '${project.version}'
+main: com.aurorapvp.itemfilter.ItemFilter
+api-version: 1.18
+authors: [ NotEnoughSkill ]
+commands:
+  filter:
+    description: ItemFilter Main command.
+    aliases: [itemfilter]
+  ft:
+    description: ItemFilter Main command.

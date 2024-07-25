@@ -1,0 +1,29 @@
+messages:
+  item-filter-no-permission:
+    - '&4[&cAuroraFilter&4] &7You don''t have &cpermission&7 for that command!'
+  item-filter-reload:
+    - '&a&lItemFilter &ahas successfully reloaded!'
+  item-filter-reset-self:
+    - '&aYou have successfully reset your ItemFilter!'
+  item-filter-reset-other:
+    - '&aYou have successfully reset {player}''s ItemFilter!'
+  item-filter-target-not-found:
+    - '&c&n{player}&c has never joined this server before!'
+  item-filter-usage:
+    - ''
+    - '&b&lAurora Filter Commands'
+    - '&f/filter toggle'
+    - '&7Toggle item pickup filter.'
+    - ''
+    - '&f/filter edit'
+    - '&7Edit items you pickup while the item filter is enabled.'
+    - ''
+  item-filter-enable:
+    - ''
+    - '&a&l(!) Aurora Filter &nEnabled'
+    - '&7Use &n/filter edit&7 to edit the items you will pickup.'
+    - ''
+  item-filter-disable:
+    - ''
+    - '&c&l(!) Aurora Filter &nDisabled'
+    - ''

@@ -1,0 +1,88 @@
+options:
+  filtered-items-line: '&d&lFiltered Items (&f{0}&d&l)'
+  filtered-list-format: '&d&l* &f{1}'
+  Will:
+    ItemName: '&a{2}'
+    ItemLore:
+      - '&a&lWILL &7be picked up'
+      - '&7when item filter is &nenabled.'
+  WillNot:
+    ItemName: '&c{2}'
+    ItemLore:
+      - '&c&lWILL NOT &7be picked up'
+      - '&7when item filter is &nenabled.'
+  main-inventory:
+    title: 'Aurora Filter'
+    size: 9
+    settings:
+      inventory-open:
+        enable: true
+        sound-effect: 'ENDERMAN_TELEPORT'
+        sound-volume: 3
+        sound-pitch: 1
+      inventory-close:
+        enable: true
+        sound-effect: 'ENDERDRAGON_WINGS'
+        sound-volume: 3
+        sound-pitch: 1
+      filter-item-select:
+        enable: true
+        sound-effect: 'ANVIL_USE'
+        sound-volume: 3
+        sound-pitch: 1
+      spaces:
+        enabled: true
+        id: STAINED_GLASS_PANE:15
+        name: ' '
+        lore: [ ]
+        glow: false
+    items:
+      Equipment:
+        id: DIAMOND_CHESTPLATE
+        name: '&b&lEquipment'
+        slot: 1
+        enable: true
+      Potion:
+        id: POTION
+        name: '&b&lPotion Supplies'
+        slot: 2
+        enable: true
+      Redstone:
+        id: REDSTONE
+        name: '&b&lRedstone'
+        slot: 3
+        enable: true
+      Food:
+        id: BREAD
+        name: '&b&lFood'
+        slot: 4
+        enable: true
+      Specialty:
+        id: 52
+        name: '&b&lSpecialty'
+        slot: 5
+        enable: true
+      Ores:
+        id: DIAMOND_ORE
+        name: '&b&lOres'
+        slot: 6
+        enable: true
+      Other:
+        id: SAND
+        name: '&b&lOther Blocks'
+        slot: 7
+        enable: true
+  equipment-inventory:
+    title: 'Aurora Filter: Equipment'
+  potion-inventory:
+    title: 'Aurora Filter: Potion Supplies'
+  redstone-inventory:
+    title: 'Aurora Filter: Redstone'
+  food-inventory:
+    title: 'Aurora Filter: Food'
+  specialty-inventory:
+    title: 'Aurora Filter: Specialty'
+  ores-inventory:
+    title: 'Aurora Filter: Ores'
+  other-inventory:
+    title: 'Aurora Filter: Other'
